@@ -53,8 +53,24 @@
             <img class="img-fluid" src="https://static.wikitide.net/nullscapewiki/a/a9/Celestial_CocoonBreakFree.gif" 
             style="display: inline-block; vertical-align: bottom; margin-right: 5px; margin-left: 5px; max-width: calc(100% - 10px); 
             text-align: center; width: 362px;"> <br> </p>
-            <strong>Tako</strong><br> 
-            
+            <p style="text-align:center"><strong>Tako</strong><br> 
+            Oh, love<br>
+            <em>(So come and hit me with a strike)</em><br>
+            To fall into this love<br>
+            <em>(Oh, it reminds me I'm alive)</em><br>
+            I'll crash and burn and light up like a flame<br>
+            The joy of feeling pain<br>
+            Of knowing that there's more to gain<br>
+            To be<br>
+            <em>(I wanna dance along the knife)</em><br>
+            Exuberantly free<br>
+            <em>(Come and remind me I'm alive)</em><br>
+            The things that I was always meant to be<br>
+            To cherish all the cuts<br>
+            And fall into this reckless love<br>
+            <img class="img-fluid" src="https://media1.tenor.com/m/ciSuqF9POK4AAAAC/streetcat-flavor-foley.gif" 
+            style="display: inline-block; vertical-align: bottom; margin-right: 5px; margin-left: 5px; max-width: calc(100% - 10px); 
+            text-align: center; width: 362px;"></p>
             <strong>More</strong><br> 
             
             <strong>Kazu</strong><br>
