@@ -1,5 +1,4 @@
-<html>
-    <head>
+<head>
         <title>Pagina Principal</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +22,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Personajes</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="halo.php">Halo</a></li>
+                                <li><a class="dropdown-item" href="blank.php">Halo</a></li>
                                 <li><a class="dropdown-item" href="blank.php">Toby</a></li>
                                 <li><a class="dropdown-item" href="blank.php">Felix</a></li>
                             </ul>
@@ -39,11 +38,9 @@
                 <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">Acceder</button>
             </div>
         </nav>
-        <!--Container-->
-        <div class="container-fluid mt-3" >
-            <p style="text-align:center;"> Ermmm me concentre mas en la parte de cameos que el resto del sitio porque eso es lo que me da risa 
-            y mis amigos son los mejores mwahahaha<br><br>Online me conocen como mend, por eso todo dice mend lol, tambien
-            el rojo es mi color favorito, por eso los botones rojos</p>
+        <!--container-->
+        <div class="container-fluid">
+            <p style="text-align:center">WOW</p>
         </div>
         <!--Footer-->
         <div class="container-fluid bg-dark">
