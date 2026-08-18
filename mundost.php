@@ -44,7 +44,7 @@
                 <div class="col-4 p-2"></div>
                 <div class="col-4 p-2 bg-warning"> <p style="text-align:center;"><strong>! Todo este codigo fue sacado de mi toyhouse con cambios menores desde visual !</strong></p></div>
                 <div class="col-4 p-2"></div>
-            </div>
+            </div>  
             <p>Those who are part of the stickman world.&nbsp;</p>
 
             <p>Every stickman in this world is part of a group or class*. This gets determined at the moment of birth and it is not influenced by the family. Most classes have a physical trait that most can&#39;t hide.</p>

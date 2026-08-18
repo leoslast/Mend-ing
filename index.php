@@ -43,7 +43,8 @@
         <div class="container-fluid mt-3" >
             <p style="text-align:center;"> Ermmm me concentre mas en la parte de cameos que el resto del sitio porque eso es lo que me da risa 
             y mis amigos son los mejores mwahahaha<br><br>Online me conocen como mend, por eso todo dice mend lol, tambien
-            el rojo es mi color favorito, por eso los botones rojos</p>
+            el rojo es mi color favorito, por eso los botones rojos<br><br>Ok el boton con dropdown solo funciona en index.php y no quiero
+            arreglarlo por ahora, tal vez si descubro una forma de hacer el navbar sin necesidad de escribirlo cada vez por pagina xP</p>
         </div>
         <!--Footer-->
         <div class="container-fluid bg-dark">
