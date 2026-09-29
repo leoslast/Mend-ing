@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #a8e1a8;
+}
+
+.container-fluid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #64b027;
+}
+
+.logo {
+    font-size: 25px;
+    color: darkolivegreen;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+    color: black;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: darkolivegreen;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 35px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: flex;
+    margin-right: 10px;
+}
+
+.submenu #carro {
+    display: none;
+}
+
+.submenu:hover #carro {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    padding: 20px;
+    min-width: 400px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    background: rgba(152, 251, 152, 0.8)
+}
+
+table {
+    width: 100%;
+}
+
+th, td{
+    color: darkolivegreen;
+}
+
+.login-btn {
+    margin-left: 90%px;
+}
+
+.btn-2 {
+    padding: 5px 25px;
+    background-color: #a8e1a8;
+    border-radius: 10px;
+}
+
+.borrar {
+    background-color: #dd3131;
+    border-radius: 20%;
+    padding: 5px, 10px;
+    text-decoration: none;
+    color: #a8e1a8;
+    font-weight: 800;
+}
+
+
+.header-content{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: #e0ffe0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px grey;
+}
+
+.header-txt h1 {
+    font-size: 55px;
+    line-height: 65px;
+    color: darkolivegreen;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.header-txt p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 45px;
+}
+
+.header-txt span {
+    color: #a349a4;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 45px;
+    border-radius: 25px;
+    background-color: #64b027;
+    font-size: 16px;
+    color: black;
+    text-transform: capitalize;
+    box-shadow: 0 0 10px grey;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.btn-1:hover{
+    color: darkolivegreen;
+}
+
+
+
+h2 {
+    font-size: 45px;
+    line-height: 55px;
+    color: darkolivegreen;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 45px;
+}
+
+.info {
+    padding: 100px 0;
+}
+
+.info-content{
+    display: flex;
+    align-items: center;
+}
+
+.info-txt {
+    width: 50%;
+}
+
+.btn-3 {
+    display: inline-block;
+    padding: 5px 25px;
+    background-color: #64b027;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-3:hover {
+    color: white;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #64b027;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.link {
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #64b027;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: darkolivegreen;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #menu:checked ~.navbar{
+        display: initial;
+    }
+
+    .submenu:hover #carro {
+        width: 100%;
+    }
+
+    .header-content {
+        padding: 100px 30px 30px;
+        flex-direction: column;
+    }
+
+    .header-txt {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+
+    .info {
+        padding: 30px;
+    }
+
+    .info-content {
+        flex-direction: column;
+    }
+
+    .info-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
